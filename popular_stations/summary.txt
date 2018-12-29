@@ -2,3 +2,7 @@ The most popular stations are all located in the economic and administrative cen
 Such stations mainly located at crossroads of main streets, such as Broadway, 8 Ave & W 31 St, 8 Ave & W 33 St, University Pl & E 14 St, or at very lively places.
 Those are Pershing Square North(nearby there is Grand Central Terminal), crossroads of 8 Ave(nearby there is Pennsylvania Station), Central Park, World Trade Center, etc.
 The least popular stations mainly located outside Manhattan or at not lively streets.
+
+There were also missing data: in some rows values of "start station id", "start station name", "end station id", "end station name" columns were undefined.
+I've tried to solve this using GoogleMaps API, by getting the name of location by station's latitude and longitude and assign new station id.
+But as those stations were not popular and corresponding columns were not used in further work, the results are not included in the project.
