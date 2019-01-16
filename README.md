@@ -1,7 +1,7 @@
 # Analysis of Citibike - New York bike sharing system and researching dependencies between the time of ride and distance travelled.
 
 
-## Motivation
+## Introduction
 Bike sharing systems becoming more and more popular in the last years. There are thousands of rides happening every day. In this research, I’ve tried to investigate dependencies between the time of ride and distance travelled, which factors could influence this dependency and if there is an influence of weather during the ride.
 
 ## Methodology
@@ -38,8 +38,11 @@ During training linear regression on small part of dataset(100 - 1000 samples) a
 ## Conclusions
 
 Average daily use of bikes is higher during May – Oct, while the most popular bike stations are all located in Manhattan.
+
 Time of the ride and distance travelled (distance between the start point and the end point)  are almost not correlated.
+
 Using additional features (information about cycler and weather data) can increase coefficient of determination by up to 0,7%
+
 
 
 
