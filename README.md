@@ -6,7 +6,9 @@ Bike sharing systems becoming more and more popular in the last years. There are
 
 ## Methodology
 The methodology implies the combined use of two approaches:
+
 1st : statistical analysis of data: graph of bike sharing system’s rides and investigation of most popular stations
+
 2nd: ML model to predict distance of ride based on different input values.
 
 
