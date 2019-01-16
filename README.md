@@ -12,12 +12,12 @@ The methodology implies the combined use of two approaches:
 
 ## Results
 
-![Average daily use of bike-sharing across all months](total_rides/rides.png?raw=true "Average daily use of bike-sharing across all months"){:height="50%" width="50%"}
+![Average daily use of bike-sharing across all months](total_rides/rides.png?raw=true "Average daily use of bike-sharing across all months")
 
 
 ##### Popular Stations
 
-![The most popular stations](popular_stations/the_most_popular.png?raw=true "10 red dots - the most popular stations"){:height="50%" width="50%"}
+![The most popular stations](popular_stations/the_most_popular.png?raw=true "10 red dots - the most popular stations")
 
 The most popular stations are all located in the economic and administrative centre of New York - Manhattan.
 Such stations mainly located at crossroads of main streets, such as Broadway, 8 Ave & W 31 St, 8 Ave & W 33 St, University Pl & E 14 St, or at very lively places.
@@ -31,7 +31,7 @@ But as those stations were not popular and corresponding columns were not used i
 ##### Dependency between time and distance
 During training linear regression on small part of dataset(100 - 1000 samples) accuracy on train was 50-60% while on test 20-40%. While increasing the number of samples to 10'000 accuracy has felt to 8-10% both on train and test. On the whole dataset, accuracy is 0.1%-0.8% depending on the number of features included and if weather data used.
 
-![Results](linear_regression/results.png?raw=true "Results of model training"){:height="50%" width="50%"}
+![Results](linear_regression/results.png?raw=true "Results of model training")
 
 ## Conclusions
 
