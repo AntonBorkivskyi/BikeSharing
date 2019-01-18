@@ -31,6 +31,11 @@ I've tried to solve this using GoogleMaps API, by getting the name of location b
 But as those stations were not popular and corresponding columns were not used in further work, the results are not included in the project.
 
 ##### Dependency between time and distance
+
+The first step of the experiment was the prediction of distance just based on the time of ride(seconds).
+In the second step to the time of ride was added information about cycler(a type of user: subscriber/customer, age, sex).
+In the third step to all previous features weather data was added: temperature(C), humidity(%), precipation(mm), wind speed(m/s) and cloudiness(%).
+
 During training linear regression on small part of dataset(100 - 1000 samples) accuracy on train was 50-60% while on test 20-40%. While increasing the number of samples to 10'000 accuracy has felt to 8-10% both on train and test. On the whole dataset, accuracy is 0.1%-0.8% depending on the number of features included and if weather data used.
 
 ![Results](linear_regression/results.png?raw=true "Results of model training")
