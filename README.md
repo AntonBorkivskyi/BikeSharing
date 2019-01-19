@@ -38,6 +38,8 @@ In the third step to all previous features weather data was added: temperature(C
 
 During training linear regression on small part of dataset(100 - 1000 samples) accuracy on train was 50-60% while on test 20-40%. While increasing the number of samples to 10'000 accuracy has felt to 8-10% both on train and test. On the whole dataset, accuracy is 0.1%-0.8% depending on the number of features included and if weather data used.
 
+Such a bad accuracy is gained probably because of distance which was predicted. It was Euclidean distance between stations but not a distance travelled by cycler. Two stations could be nearby and cycler could move between them with a large hook: distance travelled and time are large but the distance between stations is not big what causes the unexpected outcome.
+
 ![Results](linear_regression/results.png?raw=true "Results of model training")
 
 ## Conclusions
